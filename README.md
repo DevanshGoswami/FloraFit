@@ -1,6 +1,6 @@
 <p align="center">
 <a href="https://florafit.herokuapp.com">
-	<img src="./fficon.png" width=30%/>
+	<img src="./fficon.png" width=20%/>
 </a>
 	<h1 align="center"> Flora-Fit </h1>
     <h2 align="center"> "The Doctor for your crops and plants" <h2>
@@ -16,7 +16,7 @@
 </div>
 
 ## Preview
-- will add
+- 
   
 
 
@@ -38,18 +38,18 @@
 ## Instructions to run
 
 * Pre-requisites:
-	-  < insert pre-requisite >
-	-  < insert pre-requisite >
+	-  Python, pytorch and flask
+	-  Familiarity with Web Dev concepts
 
 * < directions to install > 
 ```bash
-< insert code >
+pip install -requirements.txt
 ```
 
 * < directions to execute >
 
 ```bash
-< insert code >
+flask run
 ```
 
 ## Contributors
