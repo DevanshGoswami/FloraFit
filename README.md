@@ -16,7 +16,7 @@
 </div>
 
 ## Preview
-- 
+<img src="./FloraFit.gif">
   
 
 
@@ -63,7 +63,7 @@ flask run
 Devansh Goswami
 
 <p align="center">
-<img src = "https://github.com/Data-Science-Community-SRM/template/blob/master/logo-light.png?raw=true"  height="120" alt="Your Name Here (Insert Your Image Link In Src">
+<img src = "https://media-exp1.licdn.com/dms/image/C4E03AQGzUvURMBMQxA/profile-displayphoto-shrink_400_400/0?e=1609977600&v=beta&t=AYKL0zIGNfOJFIEUg9yNs-oCSa19mEjhC2J1GgXS-6o"  height="120" alt="Your Name Here (Insert Your Image Link In Src">
 </p>
 <p align="center">
 <a href = "https://github.com/person1"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
@@ -79,7 +79,7 @@ Devansh Goswami
 Hritik Bhandari
 
 <p align="center">
-<img src = "https://github.com/Data-Science-Community-SRM/template/blob/master/logo-light.png?raw=true"  height="120" alt="Your Name Here (Insert Your Image Link In Src">
+<img src = "https://media-exp1.licdn.com/dms/image/C5603AQFIzlrt5yQMrw/profile-displayphoto-shrink_400_400/0?e=1609977600&v=beta&t=vXRPLKsWNyJ87sDG5dx8SFXq85unWzfBOehwgnWALpc"  height="120" alt="Your Name Here (Insert Your Image Link In Src">
 </p>
 <p align="center">
 <a href = "https://github.com/person2"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
@@ -96,7 +96,7 @@ Hritik Bhandari
 Takshil Mittal
 
 <p align="center">
-<img src = "https://github.com/Data-Science-Community-SRM/template/blob/master/logo-light.png?raw=true"  height="120" alt="Your Name Here (Insert Your Image Link In Src">
+<img src = "https://media-exp1.licdn.com/dms/image/C4E03AQEqnA23ZbmSSw/profile-displayphoto-shrink_400_400/0?e=1609977600&v=beta&t=g-qqC6ccq4RxJ0GuuRpRsMY1jyGCwiMQuee2rFKRpB8"  height="120" alt="Your Name Here (Insert Your Image Link In Src">
 </p>
 <p align="center">
 <a href = "https://github.com/person3"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
