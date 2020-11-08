@@ -20,9 +20,9 @@ def result():
 	print(plant_name)
 	disease_name = disease[ind+2:]
 	remidy = remidies['remidy']
-	cite = remidies['cite']
+	
 
-	return render_template('result.html',plant= plant_name, disease = disease_name, cite=cite, remidy= remidy)
+	return render_template('result.html',plant= plant_name, disease = disease_name, remidy= remidy)
 
 
 
