@@ -75,13 +75,40 @@ ul {
             <div class="container">
                 <h1 class="display-4" style="font-weight: 800; color:#82b5ac;">
                     Flora Fit
-                </h1>       
+                </h1>    
+                <p style="font-size: 18px; font-style: italic;">
+                  The Doctor for your crops and plants.
+                </p>
                 <p style="font-weight: 400;" class="lead">Created with ❤️ by <strong >console.log("Hackers")</strong>.</p>
                        
             </div>
          </div>
 
-         <div class="row justify-content-center">
+        
+        
+         <div class="row justify-content-center mb-5" data-aos="zoom-in" data-aos-duration="1000">
+            
+             <div class="col-12 col-lg-6">
+                <section class="card px-5 pt-5" id="contact" data-aos="zoom-in" data-aos-duration="2000" style="background: none;" >
+                    <div class="text-center mb-5 sec-title centered">
+                       <h1 class="heads contact-us"><i class="fa fa-leaf" style="color:#82b5ac" aria-hidden="true"></i></h1>
+                       <p class="card-text">Upload the picture (jpg/png) of the plant you wish to examine for diseases.</p>
+                     
+                    </div>
+                    <form method="post" action="/result" enctype='multipart/form-data'>
+                     <div class="custom-file">
+                         <input type="file" name="file" class="custom-file-input" id="customFile">
+                         <label class="custom-file-label" for="customFile">Choose file</label>
+                       </div>
+                     <div class="text-center my-4">
+                      <button type="submit" style="background: none; border-color: #82b5ac; font-weight: 500; color: #82b5ac;" class="btn"><i class="fa fa-send-o"></i> Upload</button>
+                     </div>
+                    </form>
+                  </section>
+             </div>
+         </div>
+
+          <div class="row justify-content-center">
             <div class="col-12 col-lg-6">
                 <div class="text-center">
                  <h1 class="heads mt-2" ><span style="color:#82b5ac;font-weight: 700;">P</span>lants</h1>
@@ -110,28 +137,6 @@ ul {
              </ul></div>
          </div>
         
-         <div class="row justify-content-center" data-aos="zoom-in" data-aos-duration="1000">
-            
-             <div class="col-12 col-lg-6">
-                <section class="card px-5 pt-5" id="contact" data-aos="zoom-in" data-aos-duration="2000" style="background: none;" >
-                    <div class="text-center mb-5 sec-title centered">
-                       <h1 class="heads contact-us"><i class="fa fa-leaf" style="color:#82b5ac" aria-hidden="true"></i></h1>
-                       <p class="card-text">Upload the picture (jpg/png) of the plant you wish to examine for diseases.</p>
-                     
-                    </div>
-                    <form method="post" action="/result" enctype='multipart/form-data'>
-                     <div class="custom-file">
-                         <input type="file" name="file" class="custom-file-input" id="customFile">
-                         <label class="custom-file-label" for="customFile">Choose file</label>
-                       </div>
-                     <div class="text-center my-4">
-                      <button type="submit" style="background: none; border-color: #82b5ac; font-weight: 500; color: #82b5ac;" class="btn"><i class="fa fa-send-o"></i> Upload</button>
-                     </div>
-                    </form>
-                  </section>
-             </div>
-         </div>
-        
           
          
           
@@ -143,6 +148,9 @@ ul {
                <h1 class="heads mt-2" data-aos="zoom-in" data-aos-duration="1000"><span style="color:#82b5ac;font-weight: 700;">A</span>bout</h1>
              
             </div>
+            <p>
+              An AI application to help the farmers make sure their crops and plants are healthy & fit, detect the disease from the plant's pictures and recommend natural remedies and prevention.
+            </p>
             <p>
                 The application is developed using <span style="color:#82b5ac">PyTorch</span>
                 Used Transfer Learning technique and developed the model on pretrained Densnet121 model
@@ -159,7 +167,7 @@ ul {
              
             </div>
             <div class="row justify-content-center">
-              <div class="col-8 col-lg-4">
+              <div class="col-8 col-lg-3">
                 <div class="card">
                   <img src="https://media-exp1.licdn.com/dms/image/C4E03AQGzUvURMBMQxA/profile-displayphoto-shrink_400_400/0?e=1609977600&v=beta&t=AYKL0zIGNfOJFIEUg9yNs-oCSa19mEjhC2J1GgXS-6o" class="card-img-top rounded-circle" alt="Devansh Goswami">
                   <div class="card-body text-center">
@@ -168,7 +176,7 @@ ul {
                   </div>
                 </div>
               </div>
-              <div class="col-8 col-lg-4">
+              <div class="col-8 col-lg-3">
                 <div class="card">
                   <img src="https://media-exp1.licdn.com/dms/image/C4E03AQEqnA23ZbmSSw/profile-displayphoto-shrink_400_400/0?e=1609977600&v=beta&t=g-qqC6ccq4RxJ0GuuRpRsMY1jyGCwiMQuee2rFKRpB8" class="card-img-top rounded-circle" alt="Takshil Mittal">
                   <div class="card-body text-center">
@@ -177,7 +185,7 @@ ul {
                   </div>
                 </div>
               </div>
-              <div class="col-8 col-lg-4">
+              <div class="col-8 col-lg-3">
                 <div class="card">
                   <img src="https://media-exp1.licdn.com/dms/image/C5603AQFIzlrt5yQMrw/profile-displayphoto-shrink_400_400/0?e=1609977600&v=beta&t=vXRPLKsWNyJ87sDG5dx8SFXq85unWzfBOehwgnWALpc" class="card-img-top rounded-circle" alt="Hritik Bhandari">
                   <div class="card-body text-center">
@@ -186,7 +194,7 @@ ul {
                   </div>
                 </div>
               </div>
-              <div class="col-8 col-lg-4">
+              <div class="col-8 col-lg-3">
                 <div class="card">
                   <img src="https://media-exp1.licdn.com/dms/image/C4D03AQHDDNebppEBow/profile-displayphoto-shrink_400_400/0?e=1609977600&v=beta&t=sAh-mUX9GU5V6VGWcaTnOmT0rKCQj3MXsTiNNnlZydM" class="card-img-top rounded-circle" alt="Karan Sharma">
                   <div class="card-body text-center">
